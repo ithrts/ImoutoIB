@@ -142,6 +142,10 @@ html[data-stylesheet="Kareha"] div.main, html[data-stylesheet="Kareha"] div.main
   background: #CFC;
 }
 
+html[data-stylesheet="Kareha"] table#boards tr.cat {
+    background: #CFC;
+}
+
 html[data-stylesheet="Kareha"] div.postingmode {
   background: none;
   color: #000;

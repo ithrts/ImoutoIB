@@ -57,6 +57,10 @@ html[data-stylesheet="Cyanide"] div.main h2 {
   color: #7FF;
 }
 
+html[data-stylesheet="Cyanide"] table#boards tr.cat {
+    background: #035;
+}
+
 html[data-stylesheet="Cyanide"] div.main a:hover {
   color: red;
   text-decoration: underline;

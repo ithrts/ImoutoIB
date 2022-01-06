@@ -94,6 +94,10 @@ html[data-stylesheet="Yotsuba"] div.post details table {
   border: 1px solid #d9bfb7;
 }
 
+html[data-stylesheet="Yotsuba"] table#boards tr.cat {
+    background: #fca;
+}
+
 html[data-stylesheet="Yotsuba"] .float-left.pager {
   background: #f0e0d6;
   border-color: #d9bfb7;

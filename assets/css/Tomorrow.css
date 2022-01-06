@@ -119,6 +119,10 @@ html[data-stylesheet="Tomorrow"] div.post details table {
   border: 1px solid #111;
 }
 
+html[data-stylesheet="Tomorrow"] table#boards tr.cat {
+    background: #1d1d21;
+}
+
 html[data-stylesheet="Tomorrow"] .pager {
   background: #282a2e;
   border: 1px solid #000;

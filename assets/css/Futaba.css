@@ -41,6 +41,10 @@ html[data-stylesheet="Futaba"] div.main h2 {
   color: #800;
 }
 
+html[data-stylesheet="Futaba"] table#boards tr.cat {
+    background: #fca;
+}
+
 html[data-stylesheet="Futaba"] div.main a {
   color: #800;
 }

@@ -1,122 +1,130 @@
 body {
-	font-family: arial,helvetica,sans-serif;
-	background: #eef2ff url('img/fade-yotsuba-b.png') top center repeat-x;
-	font-size: 10pt;
+    font-family: arial, helvetica, sans-serif;
+    background: #eef2ff url('img/fade-yotsuba-b.png') top center repeat-x;
+    font-size: 10pt;
 }
 
 
 .small {
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .name {
-	color: #117743;
-	font-weight: 700;
+    color: #117743;
+    font-weight: 700;
 }
 
 .link.name {
-	color: #0f0c5d;
-	font-weight: 700;
-	text-decoration: underline;
+    color: #0f0c5d;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .modlevel.admin {
-  color: red;
+    color: red;
 }
 
 .modlevel.mod {
-  color: purple;
+    color: purple;
 }
 
 .modlevel.janitor {
-  color: blue;
+    color: blue;
 }
 
 .modlevel.user {
-  color: green;
+    color: green;
 }
 
 .subject {
-	color: #0f0c5d;
-	font-weight: 700;
+    color: #0f0c5d;
+    font-weight: 700;
 }
 
 ul.rules {
-	list-style: numeric;
+    list-style: numeric;
 }
 
 .icon {
-	margin-left: 4px;
+    margin-left: 4px;
 }
 
 span.quote {
-  color: #789922;
+    color: #789922;
 }
+
 span.rquote {
-  color: #e82323;
+    color: #e82323;
 }
 
 .dnone {
-	display: none;
+    display: none;
 }
 
 .code {
-	font-family: 'MS PGothic', 'submona' !important;
-	background: #eeeeee45;
-	color: #000;
-	border: 1px solid gray;
-	display: inline-block;
-	white-space: pre-wrap;
-	padding: 2px;
+    font-family: 'MS PGothic', 'submona' !important;
+    background: #eeeeee45;
+    color: #000;
+    border: 1px solid gray;
+    display: inline-block;
+    white-space: pre-wrap;
+    padding: 2px;
 }
+
 .aa {
-	font-family: 'MS PGothic', 'submona' !important;
-	display: inline-block;
-	white-space: pre-line;
+    font-family: 'MS PGothic', 'submona' !important;
+    display: inline-block;
+    white-space: pre-line;
 }
-.aa br, .code br {
+
+.aa br,
+.code br {
     display: none;
 }
 
 .active {
-	font-weight: bold;
+    font-weight: bold;
 }
+
 .spoiler {
-	background: #000;
-	color: #000;
+    background: #000;
+    color: #000;
 }
 
 .spoiler:hover {
-	color: #fff;
+    color: #fff;
 }
 
-a, a:visited {
-	text-decoration: none;
-	color: #34345c;
+a,
+a:visited {
+    text-decoration: none;
+    color: #34345c;
 }
 
-a:hover, .post-number a:hover {
-	color: #d00;
+a:hover,
+.post-number a:hover {
+    color: #d00;
 }
 
-a.download, a.download:visited {
-	text-decoration: none!important;
-	transform: rotate(90deg);
-	display: inline-block;
-	font-weight: bold;
+a.download,
+a.download:visited {
+    text-decoration: none !important;
+    transform: rotate(90deg);
+    display: inline-block;
+    font-weight: bold;
 }
 
 a.quotelink {
-	text-decoration: underline;
-	color: #d00;
+    text-decoration: underline;
+    color: #d00;
 }
 
 div.file-info a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 div.file-info.deleted {
-	display: none;
+    display: none;
 }
 
 div.post.reply .post-file .file-info {
@@ -124,13 +132,13 @@ div.post.reply .post-file .file-info {
 }
 
 div.container {
-	display: table;
-	width: 100%;
+    display: table;
+    width: 100%;
 }
 
 div.post-image {
-	float: left;
-	margin: 4px 15px 10px 15px;
+    float: left;
+    margin: 4px 15px 10px 15px;
 }
 
 div.post-image.expanded {
@@ -139,186 +147,210 @@ div.post-image.expanded {
 
 div.post-image img {
     min-width: 16px;
-	min-height: 16px;
-}
-
-div.post video {
-	max-width: 480px;
-	max-height: 480px;
+    min-height: 16px;
 }
 
 p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 hr {
-	border: none;
-	border-top: 1px solid #b7c5d9;
-	height: 0;
+    border: none;
+    border-top: 1px solid #b7c5d9;
+    height: 0;
 }
 
-h1, h2, h3, h4, h5 {
-	margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
 }
 
 div.banner {
-	width: 240px;
-	height: 60px;
-	border: 1px solid #000;
-	margin: auto;
+    width: 240px;
+    height: 60px;
+    border: 1px solid #000;
+    margin: auto;
 }
 
 div.page-info {
-	text-align:  center;
-	color: #af0a0f;
+    text-align: center;
+    color: #af0a0f;
 }
 
 div.page-info h1 {
-	margin: 0;
-	letter-spacing: -2px;
-	font-weight: 700;
-	font-family: Tahoma,sans-serif;
+    margin: 0;
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-family: Tahoma, sans-serif;
 }
 
 div#boardlist {
-	font-size: 12px;
+    font-size: 12px;
 }
 
 .main {
-	width: 750px;
-	margin: auto;
-	background: white;
-	border: 1px solid #000;
+    width: 750px;
+    margin: auto;
+    background: white;
+    border: 1px solid #000;
 }
 
 .main.first.banned {
-	margin-top: 100px;
-	word-break: break-all;
-	min-height: 310px;
+    margin-top: 100px;
+    word-break: break-all;
+    min-height: 310px;
 }
 
 img.banned {
-	width: 250px;
-	height: 250px;
-	float: right;
-	margin: 20px;
-	border: 1px solid;
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin: 20px;
+    border: 1px solid;
 }
 
 span.banned {
-	color: red;
-	font-weight: bold;
+    color: red;
+    font-weight: bold;
 }
 
 div.post.reply.banned {
-	margin-left: 10px;
+    margin-left: 10px;
 }
 
-div.post.reply.highlighted, div.post.reply.mouse-highlight, div.post.reply:target {
-	background: #d6bad0;
-	border-color: #ba9dbf;
+div.post.reply.highlighted,
+div.post.reply.mouse-highlight,
+div.post.reply:target {
+    background: #d6bad0;
+    border-color: #ba9dbf;
 }
 
-div.post.reply.highlighted.mouse-highlight, div.post.reply.mouse-highlight:target {
-	background: #bfa6ba;
+div.post.reply.highlighted.mouse-highlight,
+div.post.reply.mouse-highlight:target {
+    background: #bfa6ba;
 }
 
 .main h2 {
-	background: #98e;
-	padding-left: 4px;
-	font-size: 16px;
-	line-height: 1.4;
+    background: #98e;
+    padding-left: 4px;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 .main p {
-	font-size: 10pt;
-	margin-left: 4px;
+    font-size: 10pt;
+    margin-left: 4px;
 }
 
 hr.footer.static {
-	width: 752px;
-	margin-bottom: 0;
-	border-color: #000;
+    width: 752px;
+    margin-bottom: 0;
+    border-color: #000;
 }
 
 div.static.footer ul {
-	list-style: none;
-	display: table;
-	margin: auto;
+    list-style: none;
+    display: table;
+    margin: auto;
 }
 
 .static.footer li {
-	float: left;
-	padding: 2px 15px;
-	background: #eef2ff;
-	border-bottom: 1px solid;
-	border-right: 1px solid;
+    float: left;
+    padding: 2px 15px;
+    background: #eef2ff;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
 }
 
 .static.footer li:first-child {
-	border-left: 1px solid;
+    border-left: 1px solid;
 }
 
 table#boards {
-	width: 100%;
+    width: 98%;
+    border: none;
+    border-collapse: collapse;
+    margin-top: 5px;
+    margin-left:6px;
+    margin-right:6px;
 }
 
 table#boards tr th {
-	text-align: left;
+    text-align: left;
 }
 
 table#boards thead th {
-	text-decoration: underline;
+    text-decoration: underline;
+}
+
+/* Bugs idk why table#boards tr.cat {
+    background: #98e;
+} */
+
+.nsfw-1:after {
+    font-size:10px;
+    color: red;
+    background: #000;
+    content: '[NSFW]';
 }
 
 #post-form {
-	width: 450px;
-	margin: auto;
+    width: 450px;
+    margin: auto;
 }
 
 #post-form th {
-	background-color: #98e;
-	color: #000;
-	font-weight: 700;
-	border: 1px solid #000;
-	padding: 0 5px;
-	font-size: 10pt;
-	text-align: left;
+    background-color: #98e;
+    color: #000;
+    font-weight: 700;
+    border: 1px solid #000;
+    padding: 0 5px;
+    font-size: 10pt;
+    text-align: left;
 }
 
-input[type="text"], input[type="password"], textarea {
-	appearance: none;
-	border-radius: 0;
-	outline: none;
-	border: 1px solid #aaa;
-	width: 200px;
-	padding: 2px;
+input[type="text"],
+input[type="password"],
+textarea {
+    appearance: none;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid #aaa;
+    width: 200px;
+    padding: 2px;
 }
 
 #post-form textarea {
-	min-width: 200px;
-	min-height: 50px;
+    min-width: 200px;
+    min-height: 50px;
 }
 
-input[type="text"]:focus, input[type="password"]:focus, input:not([type]):focus, textarea:focus {
-	border: 1px solid #98e;
+input[type="text"]:focus,
+input[type="password"]:focus,
+input:not([type]):focus,
+textarea:focus {
+    border: 1px solid #98e;
 }
+
 input[type="file"] {
-	width: 260px;
-	text-overflow: ellipsis;
+    width: 260px;
+    text-overflow: ellipsis;
 }
 
 textarea {
-	width: 275px;
+    width: 275px;
 }
 
 div.footer {
-	text-align: center;
+    text-align: center;
 }
 
 div.footer p {
-	margin-top: 4px;
+    margin-top: 4px;
 }
 
 input[name="captcha"] {
@@ -335,139 +367,149 @@ input[name="captcha"] {
 }
 
 .thread-stats {
-	position: absolute;
-	right: 15px;
+    position: absolute;
+    right: 15px;
 }
 
 .abovefooter {
-	height: 60px;
+    height: 60px;
 }
 
 .float-right {
-	float: right;
+    float: right;
 }
 
 .float-left {
-	float: left;
+    float: left;
 }
 
 .stats {
-	display: flex;
-	justify-content: space-around;
-}
-.stats div {
-	width: 33%;
+    display: flex;
+    justify-content: space-around;
 }
 
-#boards, .main p, .stats {
-	padding: 6px;
+.stats div {
+    width: 33%;
+}
+
+#boards,
+.main p,
+.stats {
+    padding: 6px;
 }
 
 .post-number a {
     color: #000;
 }
 
-img#captcha, img#no-js-captcha {
-	border: 1px solid #000;
+img#captcha {
+    border: 1px solid #000;
 }
 
 div.postingmode {
-	text-align: center;
-	background: #e04000;
-	color: white;
-	font-size: 12pt;
-	font-weight: bold;
-	margin-bottom: 2px;
+    text-align: center;
+    background: #e04000;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-bottom: 2px;
 }
 
 [data-tooltip] {
-	position: relative;
-	white-space: pre;
-	cursor: default;
+    position: relative;
+    white-space: pre;
+    cursor: default;
 }
-[data-tooltip]::after, [data-tooltip]::before {
-	visibility: hidden;
-	transition: all linear 0.001s;
-	transition-delay: 0.3s;
-	white-space: pre;
-}
-[data-tooltip]:hover::before, [data-tooltip]:hover::after {
-	visibility: visible;
-}
-[data-tooltip]:hover {
-	position: relative;
-}
-[data-tooltip]::after {
-	width: 0; 
-	height: 0; 
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;		  
-	border-top: 5px solid #1a1a1a;
-	position: absolute;
-	bottom: 55%;
-	content: '';
-	left: 50%;
-	transform: translate(-50%, 0);
-	margin-bottom: 5px;
-}
+
+[data-tooltip]::after,
 [data-tooltip]::before {
-	font-family: Arial, Helvetica, sans-serif;
-	display: inline-block;
-	border-radius: 0px;
-	padding: 2px 5px 2px 5px;
-	background-color: #1a1a1a;
-	content: attr(data-tooltip);
-	color: #f9f9f9;
-	position: absolute;
-	bottom: 100%;
-	left: 50%;
-	transform: translate(-50%, 0);
-	margin-bottom: 2px;
-	text-align: center;
-	font-size: 11px;
-	font-style: initial;
-	font-weight: initial;
+    visibility: hidden;
+    transition: all linear 0.001s;
+    transition-delay: 0.3s;
+    white-space: pre;
+}
+
+[data-tooltip]:hover::before,
+[data-tooltip]:hover::after {
+    visibility: visible;
+}
+
+[data-tooltip]:hover {
+    position: relative;
+}
+
+[data-tooltip]::after {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #1a1a1a;
+    position: absolute;
+    bottom: 55%;
+    content: '';
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 5px;
+}
+
+[data-tooltip]::before {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    border-radius: 0px;
+    padding: 2px 5px 2px 5px;
+    background-color: #1a1a1a;
+    content: attr(data-tooltip);
+    color: #f9f9f9;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 11px;
+    font-style: initial;
+    font-weight: initial;
 }
 
 div.blotter {
-	text-align: center;
-	font-weight: 700;
-	color: red;
+    text-align: center;
+    font-weight: 700;
+    color: red;
 }
 
 div.post.reply {
-	display: table;
-	background: #d6daf0;
-	margin: 4px;
-	padding: 2px;
-	border: 1px solid #b7c5d9;
-	border-left: none;
-	border-top: none;
+    display: table;
+    background: #d6daf0;
+    margin: 4px;
+    padding: 2px;
+    border: 1px solid #b7c5d9;
+    border-left: none;
+    border-top: none;
 }
 
 div.omitted {
-	color: #707070;
+    color: #707070;
 }
 
 div.post-arrows {
-	float: left;
-	margin-right: 2px;
-	color: #b7c5d9;
+    float: left;
+    margin-right: 2px;
+    color: #b7c5d9;
 }
 
 details summary {
-	user-select: none;
-	cursor: pointer;
-	margin-left: 5px;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 5px;
 }
 
 label {
-	user-select: none;
-	font-size: 10pt;
+    user-select: none;
+    font-size: 10pt;
 }
 
 div.post details {
-	display: inline;
+    display: inline;
 }
 
 div.post td details {
@@ -475,22 +517,23 @@ div.post td details {
 }
 
 div.post details summary {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 div.post details table {
-	position: absolute;
-	background: #d6daf0;
-	border: 1px solid #b7c5d9;
-	z-index: 1;
+    position: absolute;
+    background: #d6daf0;
+    border: 1px solid #b7c5d9;
+    z-index: 1;
 }
 
-.pager a, .static.footer ul li a {
-	color: inherit!important;
+.pager a,
+.static.footer ul li a {
+    color: inherit !important;
 }
 
 .static.footer ul li a:hover {
-	color: red!important;
+    color: red !important;
 }
 
 .pager form {
@@ -498,10 +541,10 @@ div.post details table {
 }
 
 .pager {
-	background: #d6daf0;
-	padding: 4px;
-	border-right: 1px solid #b7c5d9;
-	border-bottom: 1px solid #b7c5d9;
+    background: #d6daf0;
+    padding: 4px;
+    border-right: 1px solid #b7c5d9;
+    border-bottom: 1px solid #b7c5d9;
 }
 
 .pager table {
@@ -509,58 +552,59 @@ div.post details table {
 }
 
 .box {
-	width: 752px;
-	margin: auto;
-	box-sizing: border-box;
+    width: 752px;
+    margin: auto;
+    box-sizing: border-box;
 }
 
 .box.flex {
-	display: flex;
+    display: flex;
 }
 
 .container-right {
-	width: 585px;
-	margin: 0 0 auto auto;
+    width: 585px;
+    margin: 0 0 auto auto;
 }
 
 .box.right {
-	width: 100%;
-	border: 1px solid #006;
-	color: #000;
-	background: #eff;
+    width: 100%;
+    border: 1px solid #006;
+    color: #000;
+    background: #eff;
 }
 
 .box.left {
-	width: 150px;
-	border: 1px solid #060;
-	background: #efe;
-	color: #060;
-	margin: 0 auto auto 0;
+    width: 150px;
+    border: 1px solid #060;
+    background: #efe;
+    color: #060;
+    margin: 0 auto auto 0;
 }
 
 .box.right h2 {
-	color: #fff;
-	background: #59a;
+    color: #fff;
+    background: #59a;
 }
 
 .box.left h2 {
-	background: #9c6;
+    background: #9c6;
 }
 
-.box.left h2, .box.right h2 {
-	padding-left: 4px;
-	font-size: 16px;
-	line-height: 1.4;
+.box.left h2,
+.box.right h2 {
+    padding-left: 4px;
+    font-size: 16px;
+    line-height: 1.4;
 }
 
 .box-content {
-	padding: 3px;
+    padding: 3px;
 }
 
 .box-list {
-	list-style: none;
-	padding: 4px;
-	margin: 0;
+    list-style: none;
+    padding: 4px;
+    margin: 0;
 }
 
 
@@ -570,23 +614,23 @@ div.post details table {
 /* Default functionality for Details may change across browsers in the future. */
 /* Will need to update this if we want deeper nests, for now it's only functional for 3 nests as I don't have any deeper. If I make one with more than 3 will need to update this. */
 details summary::marker {
-  content: '';
+    content: '';
 }
 
-/*marker animations do not work on safari for mac+ios as of 2021/12/27. Compat fix */
-summary::-webkit-details-marker {
-	display: none;
+details summary:before,
+details[open] details summary:before,
+details[open] details[open] details summary:before {
+    content: '▲';
+    font-size: 10pt;
+    margin-right: 2px;
+    display: inline-block;
+    transform: rotate(90deg);
+    transition: transform 0.05s 0s linear;
 }
-/* end fix */
 
-details summary:before, details[open] details summary:before, details[open] details[open] details summary:before {
-  content: '▲';
-  font-size: 10pt;
-  margin-right: 2px;
-  display: inline-block;
-  transform: rotate(90deg);
-  transition: transform 0.05s 0s linear;
+details[open] summary:before,
+details[open] details[open] summary:before,
+details[open] details[open] details[open] summary:before {
+    transform: rotate(180deg);
 }
-details[open] summary:before, details[open] details[open] summary:before, details[open] details[open] details[open] summary:before {
-  transform: rotate(180deg);
-}
+

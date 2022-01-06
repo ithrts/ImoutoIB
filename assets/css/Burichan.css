@@ -5,6 +5,10 @@ html[data-stylesheet="Burichan"] body {
   color: #000;
 }
 
+html[data-stylesheet="Burichan"] table#boards tr.cat {
+    background: #98e;
+}
+
 html[data-stylesheet="Burichan"] div#post-form th {
   border: none;
   font-size: 12pt;
